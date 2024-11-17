@@ -126,6 +126,7 @@ footer p {
 @media screen and (max-width: 768px) {
     header {
         grid-template-columns: 80%;
+        background-color: #02040f;
     }
     .pasarela, .estrenos {
         display: none;
@@ -139,5 +140,8 @@ footer p {
     }
     .posters{
         grid-template-columns: auto auto ;
+    }
+    footer{
+        background-color: #02040f;
     }
 }
