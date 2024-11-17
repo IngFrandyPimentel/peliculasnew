@@ -120,3 +120,24 @@ footer p {
     position: relative;
     top: 50%;
 }
+
+/* response */
+
+@media screen and (max-width: 768px) {
+    header {
+        grid-template-columns: 80%;
+    }
+    .pasarela, .estrenos {
+        display: none;
+    }
+
+    li>a{
+        font-size: 1.2rem;
+    }
+    .container {
+        grid-template-columns: 100%;
+    }
+    .posters{
+        grid-template-columns: auto auto ;
+    }
+}
