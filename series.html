@@ -1,83 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Cinema</title>
 </head>
+
 <body>
+    <header>
+        <div class="nombre">
+            <p> <i class="fa-solid fa-video icono_logo"></i> Cinema </p>
+        </div>
+        <div class="estrenos">
+            <h2>ESTRENOS RECIENTES</h2>
+        </div>
+        <div class="pasarela">
+            <marquee>
+                <img src="imagenes/series/s9.png" alt="" class="img_pasarela">
+                <img src="imagenes/series/s8.png" alt="" class="img_pasarela">
+                <img src="imagenes/series/s7.png" alt="" class="img_pasarela">
+                <img src="imagenes/series/s6.png" alt="" class="img_pasarela">
+                <img src="imagenes/series/s18.png" alt="" class="img_pasarela">
+                <img src="imagenes/series/s15.png" alt="" class="img_pasarela">
+                <img src="imagenes/series/s14.png" alt="" class="img_pasarela">
+                <img src="imagenes/series/s13.png" alt="" class="img_pasarela">
+                <img src="imagenes/series/11.png" alt="" class="img_pasarela">
+            </marquee>
+        </div>
+    </header>
+
 
     <div class="container">
-        <header>
-           <h1> <i class="fa-solid fa-video"></i> Cinema </h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="#">Peliculas</a></li>
-                    <li><a href="series.html">Series</a></li>
-                </ul>
-            </nav>
-        </header>
-    
+
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+                <li><a href="peliculas.html"><i class="fa-solid fa-film"></i> Peliculas</a></li>
+                <li><a href="series.html"><i class="fa-solid fa-clapperboard"></i> Series</a></li>
+            </ul>
+        </nav>
+
         <div class="posters">
             <div class="poster">
-                <img src="imagenes/p3.webp" alt="">
+                <img src="imagenes/series/s1.jpg" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p6.webp" alt="">
+                <img src="imagenes/series/s2.jpg" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p10.webp" alt="">
+                <img src="imagenes/series/s3.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p5.webp" alt="">
+                <img src="imagenes/series/s4.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p15.webp" alt="">
+                <img src="imagenes/series/s5.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p8.webp" alt="">
+                <img src="imagenes/series/s6.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p7.webp" alt="">
+                <img src="imagenes/series/s7.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p2.webp" alt="">
+                <img src="imagenes/series/s8.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p9.webp" alt="">
+                <img src="imagenes/series/s9.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p10.webp" alt="">
+                <img src="imagenes/series/10.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p11.webp" alt="">
+                <img src="imagenes/series/11.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p12.webp" alt="">
+                <img src="imagenes/series/12.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p13.webp" alt="">
+                <img src="imagenes/series/s13.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p14.webp" alt="">
+                <img src="imagenes/series/s14.png" alt="">
             </div>
             <div class="poster">
-                <img src="imagenes/p15.webp" alt="">
+                <img src="imagenes/series/s15.png" alt="">
             </div>
-
-            
-
-
+            <div class="poster">
+                <img src="imagenes/series/s16.png" alt="">
+            </div>
+            <div class="poster">
+                <img src="imagenes/series/s17.png" alt="">
+            </div>
+            <div class="poster">
+                <img src="imagenes/series/s18.png" alt="">
+            </div>
         </div>
     </div>
     <footer>
-        <i class="fa-solid fa-video"></i>
+        <i class="fa-solid fa-video icono_logo"></i>
         <h2>Cinema RD</h2>
         <p>Todos los derechos reservados a Cinema</p>
     </footer>
- 
+
 </body>
+
 </html>
